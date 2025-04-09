@@ -1,3 +1,8 @@
+#=======================================================================#
+# Allow autoindex                                                       #
+# Put this in /home/username/conf/web/domainname                        #
+#=======================================================================#
+
 server {
 	listen      %ip%:%web_ssl_port% ssl;
 	server_name %domain_idn% %alias_idn%;
